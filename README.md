@@ -1,2 +1,2 @@
 # rsschool-cv
-https://Khabib1802E.github.io/rsschool-cv/cv
+https://Khabib1802.github.io/rsschool-cv/cv
