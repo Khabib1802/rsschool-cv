@@ -19,3 +19,15 @@ let b = prompt("Second number?", 2);
 
 alert(+a + +b);
 ```
+## Education  
+### Dagestan State Technical University  
+**Bachelor’s in Computer Science** | 2026   
+
+### Online Courses 
+- RS School - JS / Front-end Course | 2025  
+
+## Languages  
+- **Russian**: Native  
+- **English**: Intermediate (B1)  
+
+---  
