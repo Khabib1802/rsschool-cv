@@ -46,10 +46,11 @@ body{
 	justify-content: space-between;
 	color: #212529;
 	font-size: 16px;
+	line-height: 1.6;
 	background-color: #f8f9fa;
 }
 .container{
-	max-width: 1440px;
+	max-width: 940px;
 	margin: 0 auto;
 }
 .header{
@@ -62,19 +63,21 @@ body{
 	width: 126px;
 	border-radius: 50%;
 	border: 3px solid #0d6efd;
+	transition: transform 0.3s;
+}
+.header-avatar:hover{
+	transform: scale(1.05);
 }
 .header-name{
 	font-size: 32px;
 	font-weight: 700;
 	color: #0d6efd;
-	line-height: 1.6;
 	margin: 20px 0 5px;
 	
 }
 
 .header-position{
 	font-size: 19px;
-	line-height: 1.6;
 	opacity: 0.8;
 }
 .navigation-list{
@@ -84,8 +87,6 @@ body{
 	padding: 20px 0;
 	margin: 20px 0;
 }
-.navigation-item{
-}
 .navigation-link{
 	color: #212529;
 	font-weight: 500;
@@ -93,5 +94,81 @@ body{
 	padding: 5px;
 }
 .navigation-link:hover{
+	color: #0d6efd;
+}
+section{
+	margin: 24px 0;
+	padding: 24px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.6s;
+}
+section:hover{
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #0d6efd;
+	margin-bottom: 20px;
+}
+.contacts-location{
+	margin-bottom: 20px;
+}
+.contacts-item{
+	margin-bottom: 8px;
+}
+.contacts-link{
+	color: #212529;
+	transition: color 0.3s;
+}
+.contacts-link:hover{
+	color: #0d6efd;
+}
+.skills-item{
+	margin-bottom: 8px;
+}
+.code-example{
+	background-color: #f8f9fa;
+	border-left: 3px solid #0d6efd;
+	border-radius: 5px;
+	padding-left: 16px;
+	margin: 16px 0;
+}
+code{
+	font-family: 'Courier New', monospace;
+	font-size: 13px;
+	color: #212529;
+	font-weight: 700;
+}
+h3{
+	margin: 18px 0;
+	font-size: 18px;
+	font-weight: 700;
+}
+.footer{
+	margin: 32px 0 0;
+	padding: 24px 0;
+	text-align: center;
+	border-top: 1px solid #dee2e6;
+}
+.footer-image{
+	height: 30px;
+	transition: transform 0.3s;
+}
+.footer-image:hover{
+	transform: scale(1.05);
+}
+.footer-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-github{
+	color: #212529;
+	transition: color 0.3s;
+}
+.footer-github:hover{
 	color: #0d6efd;
 }
