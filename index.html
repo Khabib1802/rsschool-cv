@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cv</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="shortcut icon" href="./assets/img/cv-favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<img src="../rsschool-cv/assets/img/avataaars.png" alt="my-photo" class="header-avatar">
+			<!-- todo: jpg to svg -->
+			<div class="header-info">
+				<h1 class="header-name">Khabib Gadzhimagomedov</h1>
+				<div class="header-position">Junior Frontend Developer</div>
+			</div>
+			<nav class="navigation">
+				<ul class="navigation-list">
+					<li class="navigation-item">
+						<a href="#contacts" class="navigation-link"><i class="fas fa-envelope"></i> Contacts</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#summary" class="navigation-link"><i class="fas fa-user"></i> Summary</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#skills" class="navigation-link"><i class="fas fa-code"></i> Skills</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#code" class="navigation-link"><i class="fas fa-laptop-code"></i> Code</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#education" class="navigation-link"><i class="fas fa-graduation-cap"></i> Education</a>
+					</li>
+					<li class="navigation-item">
+						<a href="#languages" class="navigation-link"><i class="fas fa-language"></i> Languages</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<section class="contacts" id="contacts">
+				<h2 class="contacts-header"><i class="fas fa-envelope"></i> Contacts</h2>
+				<p class="contacts-location"><i class="fas fa-map-marker-alt"></i> Makhachkala, Russia | Open to remote work
+				</p>
+				<ul class="contacts-list">
+					<li class="contacts-item">
+						<a href="mailto:habib31.03.2002@gmail.com" target="_blank" class="contacts-link"><i
+								class="fas fa-envelope"></i> habib31.03.2002@gmail.com</a>
+					</li>
+					<li class="contacts-item">
+						<a href="tel:+79188444728" target="_blank" class="contacts-link"><i class="fas fa-phone"></i> +7 (918)
+							844-47-28</a>
+					</li>
+					<li class="contacts-item">
+						<a href="https://github.com/Khabib1802" target="_blank" class="contacts-link"><i
+								class="fab fa-github"></i> GitHub</a>
+					</li>
+					<li class="contacts-item">
+						<a href="https://t.me/kebabgg" target="_blank" class="contacts-link"><i class="fab fa-telegram"></i>
+							Telegram</a>
+					</li>
+				</ul>
+			</section>
+			<section class="summary" id="summary">
+				<h2 class="summary-header"><i class="fas fa-user"></i> Summary</h2>
+				<div class="summary-text">Entry-level Frontend Developer with solid knowledge of HTML, CSS, and JavaScript.
+					Passionate about building responsive, user-friendly web interfaces. Eager to contribute to real-world
+					projects, and collaborate in a team.</div>
+			</section>
+			<section class="skills" id="skills">
+				<h2 class="skills-header"><i class="fas fa-code"></i> Skills</h2>
+				<ul class="skills-list">
+					<li class="skills-item"><i class="fas fa-check"></i> HTML5, CSS3, JavaScript (ES6+), Responsive Design
+					</li>
+					<li class="skills-item"><i class="fas fa-check"></i> Git, GitHub, VS Code, Figma</li>
+					<li class="skills-item"><i class="fas fa-check"></i> BEM, Cross-Browser Compatibility</li>
+				</ul>
+			</section>
+			<section class="code" id="code">
+				<h2 class="code-header"><i class="fas fa-laptop-code"></i> Code</h2>
+				<pre class="code-example"><code>
+let a = prompt("First number?", 1);
+let b = prompt("Second number?", 2);
+
+alert(+a + +b);
+					</code></pre>
+			</section>
+			<section class="education" id="education">
+				<h2 class="education-header"><i class="fas fa-graduation-cap"></i> Education</h2>
+				<h3 class="education-university"><i class="fas fa-university"></i> Dagestan State Technical University</h3>
+				<div class="education-university-specialty">Bachelor’s in Computer Science | 2026</div>
+				<h3 class="education-courses"><i class="fas fa-laptop"></i> Online Courses</h3>
+				<ul class="education-courses-list">
+					<li class="education-courses-item">RS School - JS / Front-end Course | 2025</li>
+				</ul>
+			</section>
+			<section class="languages" id="languages">
+				<h2 class="languages-header"><i class="fas fa-language"></i> Languages</h2>
+				<ul class="languages-list">
+					<li class="languages-item"><i class="fas fa-comment"></i> Russian: Native</li>
+					<li class="languages-item"><i class="fas fa-comment"></i> English: Intermediate (B1)</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-info">
+				<div class="footer-date">© 2025 Khabib Gadzhimagomedov</div>
+				<a href="https://github.com/Khabib1802" target="_blank" class="footer-github"><i class="fab fa-github"></i>
+					GitHub</a>
+			</div>
+			<a href="https://rs.school/courses/javascript-ru" class="footer-link" target="_blank">
+				<img src="./assets/img/rs-school-logo.svg" alt="rs-school" class="footer-image">
+			</a>
+		</div>
+	</footer>
+</body>
+
+</html>
