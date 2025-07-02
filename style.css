@@ -87,3 +87,68 @@ h6 {
 }
 
 /*-------------------------------------------------------*/
+
+body {
+	font-family: Roboto, sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #212529;
+	font-size: 16px;
+	line-height: 1.6;
+	background-color: #f8f9fa;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	padding: 32px 0;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.header-avatar {
+	height: 126px;
+	width: 126px;
+	border-radius: 50%;
+	border: 3px solid #0d6efd;
+	transition: transform 0.3s;
+}
+
+.header-avatar:hover {
+	transform: scale(1.05);
+}
+
+.header-name {
+	font-size: 32px;
+	font-weight: 700;
+	color: #0d6efd;
+	margin: 20px 0 5px;
+}
+
+.header-position {
+	font-size: 19px;
+	opacity: 0.8;
+}
+
+.navigation-list {
+	display: flex;
+	justify-content: center;
+	column-gap: 20px;
+	padding: 20px 0;
+	margin: 20px 0;
+}
+
+.navigation-link {
+	color: #212529;
+	font-weight: 500;
+	transition: color 0.3s;
+	padding: 5px;
+}
+
+.navigation-link:hover {
+	color: #0d6efd;
+}
