@@ -218,3 +218,34 @@ h3 {
 	font-size: 18px;
 	font-weight: 700;
 }
+
+.footer {
+	margin: 32px 0 0;
+	padding: 24px 0;
+	text-align: center;
+	border-top: 1px solid #dee2e6;
+}
+
+.footer-image {
+	height: 30px;
+	transition: transform 0.3s;
+}
+
+.footer-image:hover {
+	transform: scale(1.05);
+}
+
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-github {
+	color: #212529;
+	transition: color 0.3s;
+}
+
+.footer-github:hover {
+	color: #0d6efd;
+}
