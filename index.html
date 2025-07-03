@@ -71,9 +71,9 @@
 			</section>
 			<section class="summary" id="summary">
 				<h2 class="summary-header"><i class="fas fa-user"></i> Summary</h2>
-				<p class="summary-text">Entry-level Frontend Developer with solid knowledge of HTML, CSS, and JavaScript.
-					Passionate about building responsive, user-friendly web interfaces. Eager to contribute to real-world
-					projects, and collaborate in a team.</p>
+				<p class="summary-text">Junior Frontend Developer specializing in responsive web development. Skilled in
+					HTML, CSS, and JavaScript. Eager to join a collaborative environment where I can grow and bring value
+					through my work..</p>
 			</section>
 			<section class="skills" id="skills">
 				<h2 class="skills-header"><i class="fas fa-code"></i> Skills</h2>
@@ -87,10 +87,26 @@
 			<section class="code" id="code">
 				<h2 class="code-header"><i class="fas fa-laptop-code"></i> Code</h2>
 				<pre class="code-example"><code>
-let a = prompt("First number?", 1);
-let b = prompt("Second number?", 2);
+// Create an array and add elements
+const fruits = ['Apple', "Pear"];
+fruits.unshift('Banana');
+fruits.push('Orange');
+console.log(fruits); // [ 'Banana', 'Apple', 'Pear', 'Orange' ]
 
-alert(+a + +b);
+// Delete element by index
+const numbers = [10, 20, 30, 40, 50];
+numbers.splice(2, 1);
+console.log(numbers); // [10, 20, 40, 50]
+
+// Double all numbers
+const nums = [1, 2, 3, 4];
+let doubled = nums.map((x) => x * 2);
+console.log(doubled); // [2, 4, 6, 8]
+
+// Filter out even numbers
+const values = [5, 12, 8, 3, 7];
+let evens = values.filter((x) => x % 2 === 0);
+console.log(evens); // [12, 8]
 					</code></pre>
 			</section>
 			<section class="education" id="education">
